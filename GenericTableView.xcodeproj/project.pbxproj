@@ -13,6 +13,7 @@
 		1F59975C1CEC125C00C3E75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F59975A1CEC125C00C3E75D /* Main.storyboard */; };
 		1F59975E1CEC125C00C3E75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F59975D1CEC125C00C3E75D /* Assets.xcassets */; };
 		1F5997611CEC125C00C3E75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F59975F1CEC125C00C3E75D /* LaunchScreen.storyboard */; };
+		1F59976A1CEC1C5F00C3E75D /* NSArray+RemoveMultipleItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5997691CEC1C5F00C3E75D /* NSArray+RemoveMultipleItems.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1F59975D1CEC125C00C3E75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F5997601CEC125C00C3E75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F5997621CEC125C00C3E75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F5997681CEC1C5F00C3E75D /* NSArray+RemoveMultipleItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RemoveMultipleItems.h"; sourceTree = "<group>"; };
+		1F5997691CEC1C5F00C3E75D /* NSArray+RemoveMultipleItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RemoveMultipleItems.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				1F5997551CEC125C00C3E75D /* AppDelegate.m */,
 				1F5997571CEC125C00C3E75D /* ViewController.h */,
 				1F5997581CEC125C00C3E75D /* ViewController.m */,
+				1F5997681CEC1C5F00C3E75D /* NSArray+RemoveMultipleItems.h */,
+				1F5997691CEC1C5F00C3E75D /* NSArray+RemoveMultipleItems.m */,
 				1F59975A1CEC125C00C3E75D /* Main.storyboard */,
 				1F59975D1CEC125C00C3E75D /* Assets.xcassets */,
 				1F59975F1CEC125C00C3E75D /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				1F5997591CEC125C00C3E75D /* ViewController.m in Sources */,
 				1F5997561CEC125C00C3E75D /* AppDelegate.m in Sources */,
 				1F5997531CEC125C00C3E75D /* main.m in Sources */,
+				1F59976A1CEC1C5F00C3E75D /* NSArray+RemoveMultipleItems.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +308,7 @@
 				1F5997671CEC125C00C3E75D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

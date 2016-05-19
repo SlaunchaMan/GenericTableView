@@ -1,18 +1,18 @@
 //
-//  AppDelegate.h
+//  NSArray+RemoveMultipleItems.h
 //  GenericTableView
 //
 //  Created by Jeff Kelley on 5/17/16.
 //  Copyright © 2016 Jeff Kelley. All rights reserved.
 //
 
-@import UIKit;
+@import Foundation;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface NSArray (RemoveMultipleItems)
 
-@property (strong, nonatomic, nullable) UIWindow *window;
+- (NSArray *)jrk_arrayByRemovingObjectsFromArray:(NSArray *)array;
 
 @end
 
